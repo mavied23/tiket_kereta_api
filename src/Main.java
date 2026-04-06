@@ -2,6 +2,7 @@ public class Main {
   
   public static void main (String[] args) {
     System.out.println("--- SISTEM PENJUALAN TIKET KERETA API ---");
+    System.out.println("1. Kelas Eksekutif: Rp. 600.000 + Fasilitas");
 
         // Polimorfisme: Tipe data 'Tiket' tapi isinya 'KelasEksekutif'
         Tiket t1 = new KelasEksekutif("Reza", 600000);
@@ -19,7 +20,7 @@ public class Main {
         }
 
         System.out.println("-----------------------------------------");
-
+        System.out.println("2. Kelas Ekonomi: Rp. 200.000 (Tanpa Fasilitas)");
         // Cetak Tiket 2
         System.out.println("Penumpang: " + t2.getNama());
         System.out.println("Total Bayar: Rp. " + t2.hitungTotalHarga());
