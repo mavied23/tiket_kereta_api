@@ -1,7 +1,7 @@
 public class KelasEksekutif extends Tiket implements LayananTambahan {
 
     public KelasEksekutif(String nama, double harga) {
-        super(nama, harga); // Mengirim data ke konstruktor induk
+        super(nama, harga); // superclass Mengirim data ke konstruktor induk atau tiket
     }
 
     @Override
@@ -11,12 +11,12 @@ public class KelasEksekutif extends Tiket implements LayananTambahan {
     }
 
     @Override
-    public void servisMakan() {
+    public void servisMakan() { // Implementasi method dari interface LayananTambahan
         System.out.println("Layanan: Mendapatkan paket nasi box dan air mineral.");
     }
 
     @Override
-    public void bagasiEkstra() {
+    public void bagasiEkstra() {// Implementasi method dari interface LayananTambahan
         System.out.println("Layanan: Mendapatkan kuota bagasi ekstra hingga 20kg.");
     } 
   
