@@ -1,3 +1,8 @@
+package model;
+
+import service.LayananTambahan;
+
+
 public class KelasEksekutif extends Tiket implements LayananTambahan {
 
     public KelasEksekutif(String nama, double harga) {

@@ -1,3 +1,4 @@
+package model;
 public class KelasEkonomi extends Tiket {
   public KelasEkonomi(String nama, double harga) {
         super(nama, harga);
